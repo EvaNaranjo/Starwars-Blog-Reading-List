@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../../img/star-wars-logo.png";
-import "../../styles/navbar.css"
+import logo from "../../../img/star-wars-logo.png";
+import "./navbar.css"
 
 
 
@@ -9,8 +9,11 @@ export const Navbar = () => {
 	return (
 		<nav className="navbar navbar-light bg-light mb-3">
 			<img src={logo} alt="Logo" />
-			
-			
+			<form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+						
 			<select className="form-select" aria-label="Default select example">
 				<option selected> Favourites
 				</option>
