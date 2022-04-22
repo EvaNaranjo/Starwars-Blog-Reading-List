@@ -18,9 +18,10 @@ const Card = (props) => {
 			<div className="card col-md-2 text-center mt-5">
 				<div className="card-body">
 					<h5 className="card-title">{name}</h5>
-					<p>Gender: {gender}</p>
+					<p>{url}</p>
+					{/* <p>Gender: {gender}</p>
 					<p>Hair color: {hairColor}</p>
-					<p>Eye color: {eyeColor}</p>
+					<p>Eye color: {eyeColor}</p> */}
 
 					{/* <p className="card-text">{url}</p> */}
 					<Link to={"/character/" + uid} className="downcard">
