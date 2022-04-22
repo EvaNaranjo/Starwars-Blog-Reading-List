@@ -19,7 +19,7 @@ const Description=(props)=> {
         <div className="container">
             <h2>{char.properties.name}</h2>
             <p>{char.description}</p>
-            <table class="table table-striped">
+            <table className="table table-striped">
             <   thead>
                     <tr>
                         <th scope="col">Gender</th>
