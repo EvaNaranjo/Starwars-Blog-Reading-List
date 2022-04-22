@@ -1,0 +1,10 @@
+h1{
+    text-align: left;
+    margin:15px;
+    color:red
+}
+ .cardgroup{
+     display:flex;
+     flex-direction: row;
+     overflow-x: scroll;
+ }
