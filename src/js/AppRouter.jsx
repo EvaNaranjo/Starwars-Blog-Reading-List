@@ -4,10 +4,10 @@ import injectContext from "./store/appContext";
 
 //views
 import ScrollToTop from "./component/scrollToTop.jsx";
-import { Home } from "./views/home.jsx";
+import { Home } from "./views/Home/Home.jsx";
 
-import Card from "./component/card.jsx";
-import Description from "./views/description.jsx";
+import Card from "./component/Card/Card.jsx";
+import Detail from "./views/Details/Detail.jsx";
 
 //Layout
 import Layout from "./Layout/Layout.jsx"
@@ -27,11 +27,8 @@ const AppRouter = () => {
 							<Route exact path="/">
 								<Home />
 							</Route>
-							<Route exact path="/character/:id">
-								<Description />
-							</Route>
-							<Route exact path="/planet/:id">
-								<Card />
+							<Route exact path="/:type/:uid">
+								<Detail/>
 							</Route>
 							<Route>
 								<h1>Not found!</h1>

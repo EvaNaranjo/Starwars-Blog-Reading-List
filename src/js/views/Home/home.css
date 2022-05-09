@@ -1,0 +1,19 @@
+/* .container-home{
+    background-image: url("../../../img/background.jpg") repeat;
+} */
+
+h1{
+    text-align: left;
+    margin:15px;
+    color:rgb(226, 41, 50);
+    font-variant: small-caps;
+    text-shadow: 2px 2px #424549;
+}
+ .cardgroup{
+     display:flex;
+     flex-direction: row;
+     overflow-x: scroll;
+     
+    
+ }
+ 

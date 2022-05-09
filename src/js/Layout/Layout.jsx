@@ -6,9 +6,9 @@ import { Footer } from "./Footer/Footer.jsx";
 
 
 const Layout = (props) => {
-    console.log
+   
     return (
-        <>
+        <div>
             <header>
                <Navbar></Navbar>
             </header>
@@ -19,12 +19,13 @@ const Layout = (props) => {
                 <Footer></Footer>
             </footer>
 
-        </>
+            <div/>
+        </div>
     )
 }
 
 Layout.propTypes =  {
-    children: propTypes.func
+    children: propTypes.object
 
 }
 

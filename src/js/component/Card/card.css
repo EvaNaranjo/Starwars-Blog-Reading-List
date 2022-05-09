@@ -1,0 +1,36 @@
+.card {
+    margin:10px;
+    width: 20%;
+}
+
+.btn-card {
+   position:absolute;
+   left: 2px;
+   bottom: 2px;
+   margin:5px;
+}
+
+ .button-heart{
+   position: absolute;
+   right: 8px;
+   bottom: 8px;
+   size:20px;
+   border:none;   
+ }
+
+ .fa-border{
+    border: 1px solid black;     
+ }
+
+ .downcard{
+    display:inline-block;
+ }
+
+ .web-card{
+    text-align: center;
+    margin:10px;
+ }
+ 
+ .img-card{
+       max-width:95%;
+ }
