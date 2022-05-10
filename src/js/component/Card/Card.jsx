@@ -25,7 +25,7 @@ const Card = (props) => {
 				<div className="card-body">
 					<h5 className="card-title">{name}</h5>
 					
-					<p className="web-card">{url}</p>
+					{/* <p className="web-card">{url}</p> */}
 													
 					<Link to={`/${props.type}/${uid}`} className="downcard">
 						<button type="button" className="btn btn-dark btn-card" >Learn More!</button>
